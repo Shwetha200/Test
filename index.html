@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--document type is html-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,5 +8,88 @@
 <body>
     <h1>Hello</h1>
     <p>hii</p>
+    <link href="style.css" rel="stylesheet"/>
+   
+    <style>
+        body{
+            background-color: rgb(163, 163, 169);
+        }
+        .test{
+            color:red;
+        }
+        #myheader{
+            color:rgb(60, 0, 255);
+        }
+    </style><br><br>
+    <a href="https://www.w3schools.com/" target="_blank"> <img src="Assets/img.jpg" alt="Code with the best"/></a><!--when we click img link will be open in the next tab using target attribute-->
+    <a href="mailto:skulal386@gmail.com">send an email</a>
+    <!---<table style="width:100%">
+    <tr>
+        <th style="width:70%">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+<tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+</tr>
+</table>-->
+<!----
+<table>
+    <th>Colspan</th>
+<tr>
+    <th colspan="2">NAme</th>
+    <th>Age</th>
+</tr>
+<tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+</tr>
+</table>-->
+<!--rowspan-->
+<table>
+    <tr>
+        <th>Name</th>
+        <td>Jill</td>
+        </tr>
+<tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+</tr>
+<tr>
+    <td>555-8745</td>
+</tr>
+</table>
+<br><br>
+<ul>
+    <li>Coff</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ul>
+
+<ol type="A">
+    <li>Coff</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+
+<!--share button embed iframe copy and paste for utube vdo photos and maps-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JUbknnxkAAg?si=IUQRnBPkCn1mh4tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.620187614735!2d75.11695957484416!3d13.12323078720623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb5300030ff0f9%3A0x40e28dde3757fba8!2sKadya%20Moolya-Paddayibettu%20house%20Mantrady!5e0!3m2!1sen!2sin!4v1716873810578!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!--styling using class-->
+<h2>Hiiii<span class="test">Accelerlab Solutions</span>Moodbidri</h2>
+<h1 id="myheader">My Header</h1>
+<form>
+    <label for="fname">First name</label><br>
+    <input placeholder="first name" type="text" id="fname" value="Shwetha"><br><!--Instead of label use placeholder-->
+    <label for="lname">Last name</label><br>
+    <input placeholder="last name" type="text" id="lname" value="Kulal"><br>
+    <input type="submit" id="submit">
+    <button>submit</button>
+</form>
 </body>
 </html>
